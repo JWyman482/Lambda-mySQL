@@ -1,0 +1,6 @@
+{
+  "dbhost": "mydbinst.cgnchvfak7nr.us-west-2.rds.amazonaws.com",
+  "dbuser": "admin",
+  "dbpass": "adminadmin",
+  "dbname": "mydb"
+}
