@@ -1,0 +1,22 @@
+{
+  "name": "notestracker",
+  "version": "1.0.0",
+  "description": "App to record notes in a mySQL database using AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWyman482/NotesTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWyman482/NotesTracker/issues"
+  },
+  "homepage": "https://github.com/JWyman482/NotesTracker#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
