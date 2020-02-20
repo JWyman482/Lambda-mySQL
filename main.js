@@ -14,7 +14,7 @@ pool.query = util.promisify(pool.query);
 exports.handler = async (event) => {
 
     var result = "[]";
-    var action = event['action'];
+    var action = event['action'].toLowerCase();
 
     if (action == "insert") {
         result = await insertItem(event['name']);
